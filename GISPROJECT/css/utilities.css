@@ -1,0 +1,86 @@
+/* Text Colors */
+.text-primary{
+  color: #28a745;
+}
+
+/* Button */
+.btn{
+cursor: pointer;
+display: inline-block;
+padding: 10px 30px;
+color: #fff;
+background-color: #28a745;
+border: none;
+border-radius: 5px;
+}
+
+.btn:hover{
+  /* השתקפות של הכפתור */
+  opacity: 0.9;
+}
+
+.btn-primary{
+  background: #28a745;
+  color: #fff;
+}
+
+.bg-dark{
+  background: #333;
+  color: #fff;
+}
+
+/* Contact  */
+/* Flex columns */
+
+
+.flex-columns .row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-columns .column{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  /* flex:1 will take all the hight to the right */
+  /* כלומר שכל התאים יהיו שווים בגודלם */
+  flex: 1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2{
+  height: 100%;
+}
+
+/* כאשר מקטינים את הדפדפן שהתמונה ששמנו לא תהיה קטנה פתאום, וגם כדי שהתמונה לא תהיה מטושטשת */
+.flex-columns img{
+  width: 100%;
+  height: 100%;
+  /* כדי שהתמונה לא תהיה מטושטשת */
+  object-fit: cover;
+}
+
+.flex-columns .column-2{
+  display: flex;
+  flex-direction: column;
+  /* because its column i need to do flex-start in line 87 */
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+}
+
+.flex-columns h2{
+  font-size: 40px;
+  /* Like Bold Font */
+  font-weight: 100;
+}
+
+.flex-columns h4{
+  margin-bottom: 10px;
+}
+
+.flex-columns p{
+  margin: 20px 0px;
+}

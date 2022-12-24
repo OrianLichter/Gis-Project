@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Contact</title>
+</head>
+<body id="home">
+  <header >
+    <div id="navbar" class="navbar">
+      <h1 class="logo">
+        <span class="text-primary"><i class="fa-solid fa-gun"></i> Shooting</span>Range
+      </h1>
+      <nav>
+        <ul>
+          <li><a class="current" href="contact.html">יצירת קשר</a></li>
+          <li><a href="list.html">רשימת מיקומים</a></li>
+          <li><a href="map.html">מפה</a></li>
+          <li><a href="about.html">אודות</a></li>
+          <li><a href="index.html">בית</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Contact -->
+    <section id="contact" class="contact flex-columns">
+      <div class="row">
+        <div class="column">
+          <div class="column-1">
+            <img src="images/telephone.jpg" alt="" />
+          </div>
+        </div>
+        <div class="column">
+          <div class="column-2 bg-light">
+            <h2>Contact Us - צור קשר</h2>
+            <form autocomplete="off" action="" class="callback-form" >
+              <div class="form-control">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Enter name"/>
+              </div>
+              <div class="form-control">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Enter email"/>
+              </div>
+              <div class="form-control">
+                <label for="phone"></label>
+                <input type="text" name="phone" id="phone" placeholder="Enter phone"/>
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+              </div>
+              <input type="submit" value="Send" id="submit" class="btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+     <!-- Footer -->
+   <footer class="footer bg-dark">
+    <div class="social">
+      <a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+    </div>
+    <p>Copyright &copy; 2022 - Shooting Range</p>
+  </footer>
+  
+  
+</body>
+</html>
